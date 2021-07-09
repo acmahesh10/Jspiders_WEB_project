@@ -1,0 +1,262 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header {
+        min-height: 20vh;
+        width: 100%;
+        /* border-radius: 0px 0px 15px 15px; */
+        /* background-image: linear-gradient(to right, #a044ff 1%, #00d4ff 99%); #1A2980,   */
+        background-image: linear-gradient(to left, #26D0CE, #000000 2000px);
+        background-position: left;
+        background-size: cover;
+        position: relative;
+    }
+    
+    nav {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: baseline;
+        padding: 2% 5%;
+        margin-top: 0px;
+        /* text-decoration: none; */
+    }
+    
+    .home {
+        background-image: linear-gradient(to left, #26D0CE, #404b4b);
+        border-radius: 15px;
+        font-family: cursive;
+        text-decoration: none;
+        display: inline;
+        /* padding: 4px; */
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: -40px;
+        margin-right: 20px;
+        border: 1px solid transparent;
+        background-origin: border-box;
+    }
+    
+    .home:hover {
+        transform: translate(-1px, 1px) scale(1, 1);
+    }
+    
+    #home {
+        text-decoration: none;
+        text-shadow: 3px 2px 2px black;
+        color: whitesmoke;
+        font-size: 18px;
+        font-family: cursive;
+    }
+    
+    .nav-list {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .nav-list ul li {
+        text-decoration: none;
+        display: inline;
+        padding: 4px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: -40px;
+        margin-right: 20px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        /* background-image: linear-gradient(to left, #26D0CE, #404b4b); */
+        background-origin: border-box;
+        /* background-clip: border-box, content-box; */
+    }
+    
+    .nav-list ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: cursive;
+    }
+    
+    .nav-list ul li :hover {
+        background-image: linear-gradient(to left, #26D0CE, #404b4b);
+        border-radius: 15px;
+        text-decoration: none;
+        display: inline;
+        /* padding: 4px; */
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: -40px;
+        margin-right: 20px;
+        border: 1px solid transparent;
+        background-origin: border-box;
+    }
+    
+    .signup-btn {
+        top: 25px;
+        right: 80px;
+        position: absolute;
+        display: inline-block;
+        text-decoration: none;
+        color: whitesmoke;
+        border: 2px solid transparent;
+        border-radius: 15px;
+        background-image: linear-gradient( #404b4b, #26D0CE);
+        /*, radial-gradient(circle at top left, #fd00da, #19d7f8)*/
+        background-origin: border-box;
+        /* background-clip: content-box, border-box; */
+        font-size: 18px;
+        font-family: cursive;
+    }
+    
+    .signup-btn span {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+        font-family: cursive;
+        /*text-decoration: none; */
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu-content {
+        display: none;
+        position: absolute;
+        /* background: #99c9d4a8; */
+        background: white;
+        min-width: 120px;
+        z-index: 1;
+        border-radius: 15px;
+        margin-left: 790px;
+        /* margin-right: 500px; */
+    }
+    
+    .links-hidden {
+        display: inline-block;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: cursive;
+        border-radius: 15px;
+    }
+    
+    .links-hidden {
+        display: block;
+    }
+    
+    .links-hidden:hover {
+        background: linear-gradient( #404b4b, #26D0CE);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* margin-top: 20px; */
+    }
+    
+    .dropdown-menu:hover .menu-content {
+        display: block;
+        margin-top: 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* color: #919191; */
+    }
+    /* .dropdown-menu:hover {
+        /* background: white */
+    /* opacity: 0.5; 
+    } */
+    
+    marquee {
+        font-family: cursive;
+        color: #270031;
+    }
+    
+    .leftdiv {
+        float: left;
+        border-radius: 15px;
+        background: white;
+        opacity: 0.81;
+        background-size: cover;
+        box-shadow: 5px 5px 5px 0px #404b4b;
+    }
+    
+    .leftdiv:hover {
+        transform: translate(5px, 5px) scale(1, 1);
+        background-image: url(trek.gif);
+    }
+    
+    .middlediv {
+        float: left;
+        background: white;
+        opacity: 0.8;
+        background-size: cover;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 0px #404b4b;
+    }
+    
+    .middlediv:hover {
+        transform: translate(5px, 5px) scale(1, 1);
+        background-image: url(cycle.gif);
+    }
+    
+    .rightdiv {
+        float: left;
+        border-radius: 15px;
+        /* background-image: url(bike.jpg); */
+        background-color: white;
+        opacity: 0.8;
+        background-size: cover;
+        box-shadow: 5px 5px 5px 0px #404b4b;
+    }
+    
+    .rightdiv:hover {
+        transform: translate(5px, 5px) scale(1, 1);
+        background-image: url(motor.gif);
+    }
+    
+    .cat {
+        background-size: cover;
+    }
+    
+    .cat div {
+        /* margin: 10px 2px 2px 2px; */
+        background-position: 100%;
+        margin: 40px 20px 20px 40px;
+        padding: 1%;
+        color: rgb(0, 0, 49);
+        width: 26%;
+        height: 300px;
+        font-family: monospace;
+        align-items: center;
+    }
+    
+    marquee p {
+        color: #404b4b;
+    }
+    
+    body {
+        background: linear-gradient(to left, #26D0CE, #000000 2000px);
+        /* background: linear-gradient(to left, #c31432, #240b36);  #360033 , #0b8793 ,,,,,,,#FFAFBD , #ffc3a0,,,,,,,,,,redish  #c31432 , #240b36*/
+    }
+    
+    h2 {
+        font-family: inherit;
+        color: whitesmoke;
+    }
+    
+    footer {
+        margin-top: 50%;
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: #26D0CE;
+        text-decoration: none;
+    }
+    
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
